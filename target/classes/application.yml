@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+spring:
+  application:
+    name: demo-api-spring
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: DemoApiSpring
+
+
+  main:
+    allow-bean-definition-overriding: true
